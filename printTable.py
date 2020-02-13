@@ -56,7 +56,7 @@ def main():
                  ['dogs', 'cats', 'moose', 'goose']]
 
     #push test
-    l = []
+    l = ['0']
 
     printTable(tableData)
     enhenced(tableData)
