@@ -55,6 +55,9 @@ def main():
     tableData = [['apples', 'oranges', 'cherries', 'banana'], ['Alice', 'Bob', 'Carol', 'David'],
                  ['dogs', 'cats', 'moose', 'goose']]
 
+    #push test
+    l = []
+
     printTable(tableData)
     enhenced(tableData)
 
