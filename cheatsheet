@@ -1,0 +1,69 @@
+#chpt1
+str()   int()   float()
+
+#chpt2
+and or not
+if    else    elif
+while
+break   continue
+for i in range(len())
+sys.exit()
+
+#chpt3
+None
+global nonlocal
+try:
+except :
+ZeroDivisionError
+
+#chpt4
+list[] 1    1:3    -1   :
+[] + []
+[] * 3     this will copy the original list
+a = [1,2]   b = [1, 2]
+请注意，两个引用都指向同一个列表。
+del     .remove()
+如果知道想要删除的值在列表中的下标，del 语句就很好用。
+如果知道想要从 列表中删除的值，remove()方法就很好用。
+A = [a, b, c]   a, b, c = A
+.index()
+.append()   .insert()
+.sort()     .sort(reverse=True)     .sort(key=str.lower)
+字符串是不可变的
+改变一个可变数据类型的值（就像前面例子中 del 语句和 append()方法所做的 事），
+当场改变了该值，因为该变量的值没有被一个新的列表值取代
+当你将列表赋给一个变量时，实际上是将列表的“引用” 赋给了该变量。
+tuple
+('1',)
+如果元组中只有一个值，你可以在括号内该值的后面跟上一个逗号，表明这种 情况
+list()  tuple()
+>>> list('hello')
+['h', 'e', 'l', 'l', 'o']
+在变量必须保存可变数据类型的值时，例如列表或字典， Python 就使用引用。
+对于不可变的数据类型的值，例如字符串、整型或元组，Python 变量就保存值本身。
+copy.copy()     copy.deepcopy()
+
+#chpt5
+dict    {}
+.keys()     .values()       .items()
+list(spam.keys())
+'color' in spam   IS EQUAL TO   'color' in spam.keys()
+.get('keys', 0)
+.setdefault()       E.G.  count.setdefault(character, 0)
+pprint.pprint()       pprint.pformat()
+
+#chpt6
+""  ''  \
+"""     '''
+'string'[:]
+.upper()     .lower()     .isupper()   .islower()
+.isalpha()   .isalnum()   .isdecimal()     .isspace()   .istitle()
+.startwith()     .endwith()
+''.join()      .split()
+.rjust()    .ljust()    .center()
+.strip()    .rstrip()   .lstrip()       'Smap'顺序无关
+pyperclip.copy()    pyperclip.paste() 剪贴板
+#   colWidths[i] = colWidths[i] + [len(j)]
+#   new_list = [[[] for _ in range(col)] for _ in range(row)]
+
+#chpt7
