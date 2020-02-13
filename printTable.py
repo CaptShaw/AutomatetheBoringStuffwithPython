@@ -1,6 +1,7 @@
 #! /usr/bin/venv
 # -*- coding:utf-8 -*-
 
+__author__ = 'CaptShaw'
 
 def printTable(tableData):
     '''function for print table while taking list for argv
