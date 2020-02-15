@@ -24,3 +24,6 @@ c = contentRegex.findall(text)
 print(t)
 print(c)
 pprint.pprint(dict(zip(t, c)))
+
+# \w匹配的是能组成单词的字符，在python3 中re默认支持的是unicode字符集，当然也支持汉字
+# 如果要让\w仅支持英文，加个re.A标志
