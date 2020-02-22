@@ -44,6 +44,7 @@ list()  tuple()
 copy.copy()     copy.deepcopy()
 
 #chpt5
+避免方括号引用
 dict    {}
 .keys()     .values()       .items()
 list(spam.keys())
@@ -51,6 +52,8 @@ list(spam.keys())
 .get('keys', 0)
 .setdefault()       E.G.  count.setdefault(character, 0)
 pprint.pprint()       pprint.pformat()
+pop(key[,default])
+删除字典给定键 key 所对应的值，返回值为被删除的值。key值必须给出。 否则，返回default值。
 
 #chpt6
 ""  ''  \
