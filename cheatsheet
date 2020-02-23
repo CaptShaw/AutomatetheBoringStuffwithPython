@@ -1,5 +1,6 @@
 .ignore https://cloud.tencent.com/developer/news/51816
-
+养成help的习惯
+to form a habit of using help() e.g. help(str)
 #chpt1
 str()   int()   float()
 
