@@ -21,6 +21,7 @@ def order_keeper(prefix, dir='.'):
     if os.path.isdir(dir):
         pass
     else:
+        raise Exception('unacceptalbe dir')
         exit('unacceptalbe dir')
     # print(prefix)
     container = []
@@ -51,4 +52,7 @@ def order_keeper(prefix, dir='.'):
 
 
 if __name__ == '__main__':
-    order_keeper('spam', r'C:\Users\Shaw\PycharmProjects\exercise\test')
+    try:
+        order_keeper('spam', r'C:\Users\Shaw\PycharmProjects\exercise\test')
+    except Exception as err:
+        print('an error happened:' + str(err))
