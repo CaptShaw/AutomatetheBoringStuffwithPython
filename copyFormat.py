@@ -27,7 +27,8 @@ def copyFormat(format, dst='', src=os.path.abspath('.')):
                 if not os.path.exists(os.path.join(dst, filename)):
                     shutil.copy(os.path.join(dirpath, filename), dst)
                 else:
-                    shutil.copy(os.path.join(dirpath, filename), os.path.join(dst, filename + '(1)'))
+                    shutil.copy(os.path.join(dirpath, filename),
+                                os.path.join(dst, os.path.splitext(filename)[0] + '(1)' + '.' + format))
 
     print(dst)
 
